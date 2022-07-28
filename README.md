@@ -7,4 +7,4 @@ necessitam.
 ## Libs utilizadas
 
 - Redux
--
+- React Router
