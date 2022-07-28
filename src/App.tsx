@@ -1,52 +1,26 @@
-import Counter from 'pages/Counter';
+import { Link } from 'react-router-dom';
+import Routes from 'routes/Routes';
 
 const App = () => (
-  <div className="App">
-    <header className="App-header">
-      <p>{process.env.REACT_APP_BASE}</p>
-      <Counter />
-      <p>
-        Edit <code>src/App.tsx</code> and save to reload.
-      </p>
-      <span>
-        <span>Learn </span>
-        <a
-          className="App-link"
-          href="https://reactjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          React
-        </a>
-        <span>, </span>
-        <a
-          className="App-link"
-          href="https://redux.js.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Redux
-        </a>
-        <span>, </span>
-        <a
-          className="App-link"
-          href="https://redux-toolkit.js.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Redux Toolkit
-        </a>
-        ,<span> and </span>
-        <a
-          className="App-link"
-          href="https://react-redux.js.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          React Redux
-        </a>
-      </span>
+  <div id="app">
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/counter">Counter</Link>
+          </li>
+        </ul>
+      </nav>
     </header>
+
+    <main>
+      <Routes />
+    </main>
+
+    <footer>my footer</footer>
   </div>
 );
 
