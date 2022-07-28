@@ -2,6 +2,8 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 import { Global, ThemeProvider as EmotionThemeProvider } from '@emotion/react';
 import { ThemeProvider as MuiThemeProvider } from '@mui/material/styles';
 import { ReactNode } from 'react';
@@ -18,6 +20,7 @@ const ThemeProvider = ({ children }: Props) => (
     <EmotionThemeProvider theme={theme}>
       <Global styles={globalStyles} />
       <CssBaseline />
+      <ToastContainer />
       {children}
     </EmotionThemeProvider>
   </MuiThemeProvider>
