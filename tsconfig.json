@@ -22,7 +22,7 @@
     "pages/*": ["./pages/*"],
     "assets/*": ["./assets/*"],
     "store/*": ["./store/*"],
-    "services/*": ["./services/*"],
+    "api/*": ["./api/*"],
     "common/*": ["./common/*"],
     "templates/*": ["./templates/*"],
     "test-utils": ["./test-utils"]

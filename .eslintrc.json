@@ -47,7 +47,7 @@
         "pathGroupsExcludedImportTypes": [],
         "pathGroups": [
           {
-            "pattern": "services/**",
+            "pattern": "api/**",
             "group": "builtin",
             "position": "after"
           },
