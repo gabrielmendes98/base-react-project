@@ -11,3 +11,4 @@ necessitam.
 - Material UI
 - Material UI Icons
 - Emotion
+- Toastify
