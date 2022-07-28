@@ -29,7 +29,9 @@ const Counter = () => {
         >
           -
         </Button>
-        <span className={styles.value}>{count}</span>
+        <span className={styles.value} id="count-display">
+          {count}
+        </span>
         <button
           className={styles.button}
           aria-label="Increment value"
