@@ -21,6 +21,7 @@
     "components/*": ["./components/*"],
     "pages/*": ["./pages/*"],
     "assets/*": ["./assets/*"],
+    "store/*": ["./store/*"],
     "services/*": ["./services/*"],
     "common/*": ["./common/*"],
     "templates/*": ["./templates/*"],
