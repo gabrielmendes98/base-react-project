@@ -8,3 +8,6 @@ necessitam.
 
 - Redux
 - React Router
+- Material UI
+- Material UI Icons
+- Emotion
