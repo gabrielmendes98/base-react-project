@@ -12,3 +12,6 @@ necessitam.
 - Material UI Icons
 - Emotion
 - Toastify
+- Axios
+- Formik
+- Yup
