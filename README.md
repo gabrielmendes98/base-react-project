@@ -1,10 +1,10 @@
 # Base React Project
 
-Esse é um projeto para servir de base para futuras aplicações, ele contem as
-configurações e libs basicas que acredito que a maioria dos projetos React
-necessitam.
+This is a project to serve as a base for future applications, it contains the
+basic configurations and libs that I believe most React projects
+need.
 
-## Libs utilizadas
+## Libs used
 
 - Redux
 - React Router
